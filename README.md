@@ -53,7 +53,7 @@ Authenticates the user and returns an API key.
 ```
 
 ### GET /routes/near/{latitude}/{longitude}
-Finds all routes near a given latitude and longitude. “Near” is defined as <100 meters away.
+Finds all routes near a given latitude and longitude. “Near” is defined as <100 meters away. The waypoints need to be "snapped to roads" using the Google maps API to look good, with interpolation set to "true".
 
 #### Output
 ```js
