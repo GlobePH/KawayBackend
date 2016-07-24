@@ -6,3 +6,4 @@ A live demo can be found on [my server](http://www.jcgurango.com/kaway/). You ca
 
 # Installation
 The `baseline.sql` file is included for inspection of the database schema.
+
